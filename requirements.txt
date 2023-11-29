@@ -1,0 +1,175 @@
+altair==5.1.2
+anaconda-client==1.12.0
+anaconda-navigator==2.4.2
+anyio==4.0.0
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.0
+async-lru==2.0.4
+attrs==23.1.0
+Babel==2.13.0
+backcall==0.2.0
+beautifulsoup4==4.12.2
+bleach==6.1.0
+blinker==1.7.0
+boltons @ file:///C:/ci_311/boltons_1677729932371/work
+brotlipy==0.7.0
+cachetools==5.3.2
+certifi==2020.6.20
+cffi @ file:///C:/ci_311/cffi_1676423759166/work
+chardet @ file:///C:/ci_311/chardet_1676436134885/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.7
+click-plugins==1.1.1
+cligj==0.7.2
+clyent==1.2.2
+colorama @ file:///C:/ci_311/colorama_1676422310965/work
+comm==0.1.4
+conda @ file:///C:/b/abs_91p1jzml9k/croot/conda_1690495018992/work
+conda-content-trust @ file:///C:/ci_311/conda-content-trust_1676467587370/work
+conda-libmamba-solver @ file:///C:/b/abs_5a9xvt2a3k/croot/conda-libmamba-solver_1685032355900/work/src
+conda-package-handling @ file:///C:/b/abs_ce4_vcfd0y/croot/conda-package-handling_1685024800103/work
+conda-repo-cli @ file:///tmp/build/80754af9/conda-repo-cli_1620168426516/work
+conda-token @ file:///tmp/build/80754af9/conda-token_1620076980546/work
+conda_package_streaming @ file:///C:/b/abs_88a7k_wmm1/croot/conda-package-streaming_1685019697115/work
+contourpy==1.1.1
+cryptography @ file:///C:/ci_311/cryptography_1679419210767/work
+cycler==0.12.1
+debugpy==1.8.0
+decorator==5.1.1
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+descartes==1.1.0
+executing==2.0.0
+fastjsonschema==2.18.1
+fiona==1.9.5
+fonttools==4.43.1
+fqdn==1.5.1
+geographiclib==2.0
+geopandas==0.14.0
+geopy==2.4.0
+gitdb==4.0.11
+GitPython==3.1.40
+idna @ file:///C:/ci_311/idna_1676424932545/work
+importlib-metadata==6.8.0
+ipykernel==6.25.2
+ipython==8.16.1
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets==8.1.1
+isoduration==20.11.0
+jedi==0.19.1
+Jinja2==3.1.2
+json5==0.9.14
+jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
+jsonpointer==2.1
+jsonschema==4.19.1
+jsonschema-specifications==2023.7.1
+jupyter==1.0.0
+jupyter-console==6.6.3
+jupyter-events==0.7.0
+jupyter-lsp==2.2.0
+jupyter_client==8.4.0
+jupyter_core==5.4.0
+jupyter_server==2.7.3
+jupyter_server_terminals==0.4.4
+jupyterlab==4.0.7
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==3.0.9
+jupyterlab_server==2.25.0
+kiwisolver==1.4.5
+libmambapy @ file:///C:/b/abs_1dshymu5qt/croot/mamba-split_1680096516212/work/libmambapy
+markdown-it-py==3.0.0
+MarkupSafe==2.1.3
+matplotlib==3.8.0
+matplotlib-inline==0.1.6
+mdurl==0.1.2
+menuinst @ file:///C:/ci_311/menuinst_1678730372782/work
+mistune==3.0.2
+navigator-updater==0.4.0
+nbclient==0.8.0
+nbconvert==7.9.2
+nbformat==5.9.2
+nest-asyncio==1.5.8
+notebook==7.0.5
+notebook_shim==0.2.3
+numpy==1.26.0
+overrides==7.4.0
+packaging @ file:///C:/b/abs_ed_kb9w6g4/croot/packaging_1678965418855/work
+pandas==2.1.1
+pandocfilters==1.5.0
+parso==0.8.3
+pickleshare==0.7.5
+Pillow==9.4.0
+platformdirs==3.11.0
+pluggy @ file:///C:/ci_311/pluggy_1676422178143/work
+ply==3.11
+prometheus-client==0.17.1
+prompt-toolkit==3.0.39
+protobuf==4.25.1
+psutil @ file:///C:/ci_311_rebuilds/psutil_1679005906571/work
+pure-eval==0.2.2
+pyarrow==14.0.1
+pycosat @ file:///C:/ci_311/pycosat_1676438455539/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydeck==0.8.1b0
+Pygments==2.16.1
+PyJWT @ file:///C:/ci_311/pyjwt_1676438890509/work
+pyOpenSSL @ file:///C:/b/abs_de215ipd18/croot/pyopenssl_1678965319166/work
+pyparsing==3.1.1
+pyproj==3.6.1
+PyQt5==5.15.7
+PyQt5-sip @ file:///C:/ci_311/pyqt-split_1676428895938/work/pyqt_sip
+pyrsistent @ file:///C:/ci_311/pyrsistent_1676422695500/work
+PySocks @ file:///C:/ci_311/pysocks_1676425991111/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-json-logger==2.0.7
+pytz==2021.3
+pywin32==306
+pywinpty==2.0.12
+PyYAML @ file:///C:/ci_311/pyyaml_1676432488822/work
+pyzmq==25.1.1
+qtconsole==5.4.4
+QtPy==2.4.0
+referencing==0.30.2
+requests==2.31.0
+requests-toolbelt @ file:///Users/ktietz/demo/mc3/conda-bld/requests-toolbelt_1629456163440/work
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rich==13.7.0
+rpds-py==0.10.6
+ruamel.yaml @ file:///C:/ci_311/ruamel.yaml_1676439214109/work
+seaborn==0.13.0
+Send2Trash==1.8.2
+shapely==2.0.2
+sip @ file:///C:/ci_311/sip_1676427825172/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+smmap==5.0.1
+sniffio==1.3.0
+soupsieve==2.5
+stack-data==0.6.3
+streamlit==1.28.2
+tenacity==8.2.3
+terminado==0.17.1
+tinycss2==1.2.1
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+toolz @ file:///C:/ci_311/toolz_1676431406517/work
+tornado==6.3.3
+tqdm @ file:///C:/b/abs_f76j9hg7pv/croot/tqdm_1679561871187/work
+traitlets==5.11.2
+types-python-dateutil==2.8.19.14
+typing_extensions==4.8.0
+tzdata==2023.3
+tzlocal==5.2
+ujson @ file:///C:/ci_311/ujson_1676434714224/work
+uri-template==1.3.0
+urllib3 @ file:///C:/b/abs_889_loyqv4/croot/urllib3_1686163174463/work
+validators==0.22.0
+watchdog==3.0.0
+wcwidth==0.2.8
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.6.4
+widgetsnbextension==4.0.9
+win-inet-pton @ file:///C:/ci_311/win_inet_pton_1676425458225/work
+zipp==3.17.0
+zstandard==0.19.0
