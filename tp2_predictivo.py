@@ -428,18 +428,10 @@ get_recommendations(data = ratings_small, movie_metadata=df, user_id=654, top_n=
 
 #importamos librerias
 
-import pandas as pd
-import numpy as np
 
-import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
-import matplotlib.pyplot as plt
-
 from tqdm import tqdm
-
-import warnings
-warnings.filterwarnings('ignore')
 
 # Read the movies meta-data(we will be using the feature genre, overview & title from this)
 movie_md = pd.read_csv("C:/Users/nicol/Downloads/movies_metadata.csv")
@@ -671,46 +663,3 @@ best_params = gs_item.best_params['rmse']
 best_item_model = KNNBasic(k=best_params['k'], sim_options=best_params['sim_options'])
 best_item_model.fit(trainset)
 
-# Display the updated DataFrame
-#print(results_df)
-
-import streamlit as st
-from streamlit import session_state as session
-
-#Deploy
-dataframe = None
-
-st.title("""
-Netflix Recommendation System
-This is an Content Based Recommender System made on implicit ratings :smile:.
- """)
-
-st.text("")
-st.text("")
-st.text("")
-st.text("")
-
-session.options = st.multiselect(label="Select Movies", options=df['title'])
-
-st.text("")
-st.text("")
-
-session.slider_count = st.slider(label="movie_count", min_value=5, max_value=50)
-
-st.text("")
-st.text("")
-
-buffer1, col1, buffer2 = st.columns([1.45, 1, 1])
-
-is_clicked = col1.button(label="Recommend")
-
-if is_clicked:
-    dataframe = recommendation(session.options, session.slider_count)
-
-st.text("")
-st.text("")
-st.text("")
-st.text("")
-
-if dataframe is not None:
-    st.table(dataframe)
