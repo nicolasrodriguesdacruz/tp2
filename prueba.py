@@ -46,8 +46,8 @@ st.markdown(
 )
 
 with st.expander("Movies_metadata"):
-    df = pd.read_csv('C:/Users/Justo/Downloads/TP2/Data/movies_metadata.csv')
-    movie_md = pd.read_csv('C:/Users/Justo/Downloads/TP2/Data/movies_metadata.csv')
+    df = pd.read_csv('Data/movies_metadata.csv')
+    movie_md = pd.read_csv('Data/movies_metadata.csv')
     st.dataframe(df.head())
     st.write("Columnas:")
     st.code(df.columns)
@@ -64,7 +64,7 @@ st.markdown(
 )
 
 with st.expander("Links"):
-    links = pd.read_csv('C:/Users/Justo/Downloads/TP2/Data/links.csv')
+    links = pd.read_csv('Data/links.csv')
     st.dataframe(links.head())
     st.write("Columnas:")
     st.code(links.columns)
@@ -81,7 +81,7 @@ st.markdown(
 )
 
 with st.expander("ratings_small"):
-    ratings_small = pd.read_csv('C:/Users/Justo/Downloads/TP2/Data/ratings_small.csv')
+    ratings_small = pd.read_csv('Data/ratings_small.csv')
     st.dataframe(ratings_small.head())
     st.write("Columnas:")
     st.code(ratings_small.columns)
@@ -98,7 +98,7 @@ st.markdown(
 )
     
 with st.expander("Keywords"):
-    keywords = pd.read_csv('C:/Users/Justo/Downloads/TP2/Data/keywords.csv')
+    keywords = pd.read_csv('Data/keywords.csv')
     st.dataframe(keywords.head())
     st.write("Columnas:")
     st.code(keywords.columns)
@@ -115,7 +115,7 @@ st.markdown(
 )
 
 with st.expander("Credits"):
-    credits = pd.read_csv('C:/Users/Justo/Downloads/TP2/Data/credits.csv')
+    credits = pd.read_csv('Data/credits.csv')
     st.dataframe(credits.head())
     st.write("Columnas:")
     st.code(credits.columns)
@@ -520,7 +520,7 @@ data = Dataset.load_from_df(all_ratings[['userId','movieId','rating']], reader=r
 import json
 
 # Load best parameters and initialize models with them
-with open('C:/Users/Justo/Downloads/TP2/Modelos/best_params_svd.json', 'r') as fp:
+with open('Modelos/best_params_svd.json', 'r') as fp:
     best_params_svd = json.load(fp)
 
 # Initialize the SVD model with the loaded parameters
@@ -529,7 +529,7 @@ best_svd = SVD(n_epochs=best_params_svd['n_epochs'],
                reg_all=best_params_svd['reg_all'])
 
 # Load best parameters for user-based CF
-with open('C:/Users/Justo/Downloads/TP2/Modelos/best_params_user.json', 'r') as fp:
+with open('Modelos/best_params_user.json', 'r') as fp:
     best_params_user = json.load(fp)
 
 # Initialize the user-based model with the loaded parameters
@@ -537,7 +537,7 @@ best_user_model = KNNBasic(k=best_params_user['k'],
                            sim_options=best_params_user['sim_options'])
 
 # Load best parameters for item-based CF
-with open('C:/Users/Justo/Downloads/TP2/Modelos/best_params_item.json', 'r') as fp:
+with open('Modelos/best_params_item.json', 'r') as fp:
     best_params_item = json.load(fp)
 
 # Initialize the item-based model with the loaded parameters
@@ -748,9 +748,9 @@ with st.expander("Cómo funciona el modelo Content-Based"):
     )
 
 
-df = pd.read_csv('C:/Users/Justo/Downloads/TP2/Data/df_content_based_mod.csv')
+df = pd.read_csv('Data/df_content_based_mod.csv')
 
-similarity = joblib.load("C:/Users/Justo/Downloads/TP2/Modelos/similarity.pkl")
+similarity = joblib.load("Modelos/similarity.pkl")
 
 def recommendation(movie_title):
     # Find the index of the movie that matches the title
