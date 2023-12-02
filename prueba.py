@@ -191,7 +191,7 @@ st.markdown(
     ### Title WordCloud
     """
 )
-st.image("./imagenes/words.jpg", use_column_width=True)
+st.image("imagenes/words.jpg", use_column_width=True)
 
 st.write(' ')
 
@@ -200,7 +200,7 @@ st.markdown(
     ### Paises y Lenguajes mas comunes
     """
 )
-st.image("./imagenes/paises.jpg", use_column_width=True)
+st.image("imagenes/paises.jpg", use_column_width=True)
 
 st.write(' ')
 
@@ -209,7 +209,7 @@ st.markdown(
     ### Popularidad, votos promedios y cantidad de votos
     """
 )
-st.image("./imagenes/votos.jpg", use_column_width=True)
+st.image("imagenes/votos.jpg", use_column_width=True)
 
 st.write(' ')
 
@@ -246,7 +246,7 @@ st.markdown(
     ### Cantidad de peliculas por año
     """
 )
-st.image("./imagenes/ano.jpg", use_column_width=True)
+st.image("imagenes/ano.jpg", use_column_width=True)
 
 st.write(' ')
 
@@ -255,7 +255,7 @@ st.markdown(
     ### Distribucion de la duracion de las peliculas
     """
 )
-st.image("./imagenes/duracion.jpg", use_column_width=True)
+st.image("imagenes/duracion.jpg", use_column_width=True)
 
 st.write(' ')
 
@@ -273,7 +273,7 @@ st.markdown(
     ### Cantidad de peliculas por Género
     """
 )
-st.image("./imagenes/genero.jpg", use_column_width=True)
+st.image("imagenes/genero.jpg", use_column_width=True)
 
 st.write(' ')
 
@@ -282,7 +282,7 @@ st.markdown(
     ### Distribución de los retornos por Género    
     """
 )
-st.image("./imagenes/distGen.jpg", use_column_width=True)
+st.image("imagenes/distGen.jpg", use_column_width=True)
 
 st.write(' ')
 
@@ -303,7 +303,7 @@ st.markdown(
         ### Recomendación Simple
         """
     )
-st.image("./imagenes/wpg.jpg", use_column_width=True)
+st.image("imagenes/wpg.jpg", use_column_width=True)
 
 from ast import literal_eval
 
@@ -494,7 +494,7 @@ with st.expander("Algoritmos"):
         """
     )
 
-st.image("./imagenes/results_df.jpg", use_column_width=True)
+st.image("imagenes/results_df.jpg", use_column_width=True)
 
 from surprise import Dataset, Reader
 from surprise.prediction_algorithms.matrix_factorization import SVD
@@ -630,7 +630,7 @@ st.markdown(
  """
 )
 st.write('El modelo User-Based, o basado en usuario, es un enfoque de recomendación que se centra en las preferencias de usuarios similares para realizar recomendaciones a un usuario específico.')
-st.image("./imagenes/USER-BASED-FILTERING.jpg", use_column_width=True)
+st.image("imagenes/USER-BASED-FILTERING.jpg", use_column_width=True)
 with st.expander("Cómo funciona un Modelo User-Based en Recomendación de Películas"):
     st.markdown(
         """
@@ -669,7 +669,7 @@ st.markdown(
  """
 )
 st.write('El modelo Item-Based, o basado en elementos, es un enfoque de recomendación que se centra en las características intrínsecas de los elementos, como las películas, para realizar recomendaciones.')
-st.image("./imagenes/ITEM-BASED-FILTERING.jpg", use_column_width=True)
+st.image("imagenes/ITEM-BASED-FILTERING.jpg", use_column_width=True)
 with st.expander("Cómo funciona un Modelo Item-Based en Recomendación de Películas"):
     st.markdown(
         """
@@ -716,7 +716,7 @@ st.markdown(
     '''
 )
 
-st.image("./imagenes/CONTENT-BASED-RECOM.jpg", use_column_width=True)
+st.image("imagenes/CONTENT-BASED-RECOM.jpg", use_column_width=True)
 
 with st.expander("Cómo funciona el modelo Content-Based"):
     st.markdown(
