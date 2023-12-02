@@ -494,7 +494,7 @@ with st.expander("Algoritmos"):
         """
     )
 
-st.image("imagenes/results_df.jpg", use_column_width=True)
+#st.image("imagenes/results_df.jpg", use_column_width=True)
 
 from surprise import Dataset, Reader
 from surprise.prediction_algorithms.matrix_factorization import SVD
