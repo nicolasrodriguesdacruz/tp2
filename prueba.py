@@ -495,9 +495,6 @@ with st.expander("Algoritmos"):
     )
 
 #st.image("imagenes/results_df.jpg", use_column_width=True)
-import subprocess
-
-subprocess.run(['pip', 'install', 'surprise'])
 
 from surprise import Dataset
 from surprise import Reader
