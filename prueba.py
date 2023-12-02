@@ -495,10 +495,9 @@ with st.expander("Algoritmos"):
     )
 
 #st.image("imagenes/results_df.jpg", use_column_width=True)
-
 import subprocess
 
-subprocess.check_call(["pip", "install", "scikit-surprise"])
+subprocess.run(['pip', 'install', 'surprise'])
 
 from surprise import Dataset
 from surprise import Reader
@@ -511,6 +510,7 @@ from surprise import SVD, KNNBasic
 
 df = df.drop([19730, 29503, 35587]) #estos tienen fechas en los id's
 df.reset_index(inplace=True, drop=True)
+
 
 
 # Initialize a surprise reader object
