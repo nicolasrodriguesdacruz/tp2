@@ -631,7 +631,7 @@ st.markdown(
  """
 )
 st.write('El modelo User-Based, o basado en usuario, es un enfoque de recomendación que se centra en las preferencias de usuarios similares para realizar recomendaciones a un usuario específico.')
-st.image("imagenes/USER-BASED-FILTERING.jpg", use_column_width=True)
+#st.image("imagenes/USER-BASED-FILTERING.jpg", use_column_width=True)
 with st.expander("Cómo funciona un Modelo User-Based en Recomendación de Películas"):
     st.markdown(
         """
@@ -670,7 +670,7 @@ st.markdown(
  """
 )
 st.write('El modelo Item-Based, o basado en elementos, es un enfoque de recomendación que se centra en las características intrínsecas de los elementos, como las películas, para realizar recomendaciones.')
-st.image("imagenes/ITEM-BASED-FILTERING.jpg", use_column_width=True)
+#st.image("imagenes/ITEM-BASED-FILTERING.jpg", use_column_width=True)
 with st.expander("Cómo funciona un Modelo Item-Based en Recomendación de Películas"):
     st.markdown(
         """
@@ -717,7 +717,7 @@ st.markdown(
     '''
 )
 
-st.image("imagenes/CONTENT-BASED-RECOM.jpg", use_column_width=True)
+#st.image("imagenes/CONTENT-BASED-RECOM.jpg", use_column_width=True)
 
 with st.expander("Cómo funciona el modelo Content-Based"):
     st.markdown(
