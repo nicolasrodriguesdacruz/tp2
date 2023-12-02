@@ -2,7 +2,6 @@ import ast
 import pandas as pd
 import numpy as np
 import streamlit as st
-import surprise
 from streamlit import session_state as session
 
 st.title("""
@@ -497,7 +496,12 @@ with st.expander("Algoritmos"):
 
 #st.image("imagenes/results_df.jpg", use_column_width=True)
 
-from surprise import Dataset, Reader
+import subprocess
+
+subprocess.check_call(["pip", "install", "scikit-surprise"])
+
+from surprise import Dataset
+from surprise import Reader
 from surprise.prediction_algorithms.matrix_factorization import SVD
 from surprise import accuracy
 from surprise.model_selection import cross_validate
@@ -507,7 +511,6 @@ from surprise import SVD, KNNBasic
 
 df = df.drop([19730, 29503, 35587]) #estos tienen fechas en los id's
 df.reset_index(inplace=True, drop=True)
-
 
 
 # Initialize a surprise reader object
