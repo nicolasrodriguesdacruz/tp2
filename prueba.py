@@ -2,6 +2,7 @@ import ast
 import pandas as pd
 import numpy as np
 import streamlit as st
+import surprise
 from streamlit import session_state as session
 
 st.title("""
